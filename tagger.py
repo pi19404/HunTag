@@ -1,6 +1,6 @@
 from viterbi import viterbi
 from bigram import Bigram
-from liblinearutil import load_model, predict
+from hunmisc.liblinear.liblinearutil import load_model, predict
 from tools import sentenceIterator, featurizeSentence, addTagging
 import math
 import sys

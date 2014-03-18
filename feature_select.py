@@ -214,7 +214,7 @@ class LiblinearModel(object):
 
         
 if __name__ == '__main__':
-    from liblinearutil import *
+    from hunmisc.liblinear.liblinearutil import *
     from tools import *
     modelName = sys.argv[1]
     model = load_model('{0}.model'.format(modelName))
